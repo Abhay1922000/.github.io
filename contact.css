@@ -1,0 +1,85 @@
+
+
+#tabl{
+    /* border: solid 1px rgb(255, 219, 1); */
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    width: 35%;
+    height: 45%;
+    
+
+}
+/* <style> */
+  @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+/* </style> */
+.rows{
+    height: 30%;
+    width: 100%;
+    /* border: solid 1px red; */
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-family: 'Hedvig Letters Serif', serif;
+    padding: 14px 2px 1px 2px;
+    font-weight: 500;
+    border-radius: 7px; 
+    background-color: #333333;
+    line-height: 1.2;
+    
+}
+.rows a{
+    color: white;
+    font-size: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+header p{
+    position: relative;
+    top: 9px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    
+}
+h2{
+    color: #333333;
+    display: inline-block;
+    position: absolute;
+    top: 28%;
+    left: 7%;
+    line-height: 140%;
+    /* border: 1px solid black; */
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.6em;
+    width: 50%;
+    padding-left: 0px;
+    padding-right: 10px;
+    z-index: 2;
+}
+body{
+    background-color:  #000000;
+}
+span{
+    /* border: solid 1px red; */
+    position: absolute;
+    right: 1%;
+    top: 2.5%;
+}
+#desc{
+    font-size: 25px;
+    font-family: 'Rethink Sans', sans-serif;
+    /* color: rgb(0, 0, 0); */
+    width: 450px;
+    line-height: 30px;
+    position: absolute;
+    left: 7%;
+    top: 37%;  
+    padding-right: 10px;  
+}

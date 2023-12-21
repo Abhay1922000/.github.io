@@ -1,0 +1,24 @@
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+span{
+    /* border: solid 1px red; */
+    position: absolute;
+    right: 1%;
+    top: 3%;
+}
+p{
+    position: relative;
+    top: 9px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    
+}
+body{
+    background-color:  #fcde67;
+}

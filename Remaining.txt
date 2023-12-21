@@ -1,0 +1,12 @@
+Done 
+- Contact Page
+- Home Page
+- Projects Page
+- Contact Page
+- Technology Page
+- Education Page
+
+Remaining Tas
+
+- Upload all projects to github repository and lin
+them to anchor tags in projects Page

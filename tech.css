@@ -1,0 +1,49 @@
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+p{
+    position: relative;
+    top: 9px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    
+}
+h2{
+    display: inline-block;
+    position: absolute;
+    top: 28%;
+    left: 7%;
+    line-height: 140%;
+    
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.6em;
+    width: 57%;
+    padding-left: 0px;
+    padding-right: 10px;
+    z-index: 2;
+    
+}
+
+body{
+    background-color:  #000000;
+}
+span{
+    /* border: solid 1px red; */
+    position: absolute;
+    right: 1%;
+    top: 3%;
+}
+#buttons{
+    display: inline-block;
+    /* border:solid 2px #ff0000; */
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    
+}

@@ -1,0 +1,74 @@
+a{
+    color: #183a1d;
+    text-decoration: none;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+#header{
+   background-color: #000000;
+}
+header p{
+    position: relative;
+    top: 9px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    
+    
+}
+h2{
+    /* color: #; */
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    line-height: 140%;
+    /* border: 1px solid black; */
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.6em;
+    width: 35%;
+    padding-left: 0px;
+    padding-right: 10px;
+    z-index: 2;
+}
+body{
+    background-color:  #000000;
+}
+span{
+    /* border: solid 1px red; */
+    position: absolute;
+    right: 1%;
+    top: 3%;
+}
+#desc{
+    position: absolute;
+    color: #ffffff;
+    top: 30%;
+    left: 7%;
+    width: 300px;
+    font-size: 25px;
+    font-family: 'Righteous', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.cols{
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 40%;
+    width: 80%;
+    background-color: #000000;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+ 
+img{
+    border-top-right-radius: 15px;
+} 
+#single{
+    
+    position: absolute;
+    left: 600px;
+}
