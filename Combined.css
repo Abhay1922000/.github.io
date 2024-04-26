@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+}
+
+
+.ExtremeOuterLarge{
+    border: 1px solid #666666;
+    background-color:      #1b1b1b;
+    /* background-color: ; */
+    border-radius: 13px;
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    animation: appearFromUp 1s;
+
+   box-shadow: 1px -3px 10px #9B30FF;
+
+   /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); */
+       
+
+    /* transform: translateY(-20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; */
+}
+.title{
+    /* border: 1px solid salmon; */
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: aliceblue;
+    padding: 1%;
+    padding-top: 2%;
+     /* text-align: center;
+     margin: 1%; */
+     /* animation: blink 1s infinite; */
+    
+}
+.allhrefs{
+    display: inline-flex;
+    flex-direction: row;
+    font-family: 'Neuton', serif;
+    /* font-size: 70px; */
+    /* border: 1px solid gold; */
+    height: 50%;
+    
+    
+}
+.rule{
+    width: 25%;
+}
+
+@keyframes blink {
+    0% { opacity: 1; } /* Fully visible */
+    50% { opacity: 0; } /* Invisible */
+    100% { opacity: 1; } /* Fully visible again */
+  }
+  
+  /* Apply the blinking animation to an element */
+
+
+@keyframes appearFromUp{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes appearFromBottom{
+    0%{
+        transform: translateY(+20px);
+        /* opacity: 0; */
+    }
+    100%{
+        transform: translateY(0px);
+        /* opacity: 1; */
+    }
+}
+
+
+
+@media only screen and (max-width: 1100px){
+
+    .ExtremeOuterLarge{
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+
+        
+        box-shadow: 1px -3px 10px #9B30FF;
+       
+      
+        border: 1px solid #666666;
+        /* border-top: 1px solid #666666; */
+        /* border-bottom: 1px solid #666666; */
+        
+        background-color: #1b1b1b;
+        width: 90%;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        border-radius: 13px;
+    }
+
+    .title{
+       
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size: 18px;
+        font-weight: 400;
+        color: aliceblue;
+        padding: 4%;
+        /* animation: blink 1s infinite; */
+    }
+    .allhrefs{
+        /* display: inline-flex;
+        flex-wrap: wrap;
+        flex-flow: column; */
+        width: 100%;
+        /* flex-wrap: wrap; */
+        /* border: 1px solid rgb(197, 152, 132); */
+        overflow-x: auto;
+        /* height: 3.7vh; */
+        overflow-y: hidden;
+        /* margin: auto; */
+        /* font-size: 30px; */
+        justify-content: space-around;
+        height: 6vmax;
+        
+    }
+    .rule{
+        width: 50%;
+        margin: auto;
+    }
+
+}

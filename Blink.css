@@ -1,0 +1,11 @@
+@keyframes blink {
+    0% { opacity: 1; } /* Fully visible */
+    50% { opacity: 0; } /* Invisible */
+    100% { opacity: 1; } /* Fully visible again */
+  }
+  
+  /* Apply the blinking animation to an element */
+  /* .blinking-element {
+    animation: blink 1s infinite; /* Blinking animation lasting 1 second, repeating infinitely */
+  /* } */ 
+
