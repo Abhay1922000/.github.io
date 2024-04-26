@@ -1,0 +1,72 @@
+Done 
+- Contact Page
+- Home Page
+- Projects Page
+- Contact Page
+- Technology Page
+- Education Page
+
+Remaining Tas
+
+- Upload all projects to github repository and lin
+them to anchor tags in projects Page
+
+upload videos to the pages instead of pictures
+// how many projects 
+
+news WebApp, Weather Project ,Movie Crud Database , trigonometric calci,currency Converter 
+
+Responsive pages done 
+technologies done
+contact me done
+about me done
+ education done
+ projects done
+
+Remaining
+
+Gradient color of headings 
+Different Colours of headings and contents
+
+Heading Bacground  -----------done
+Progress bar
+Bacground of the page ----------done
+icons and different categories - languages  ,front end,Bac end tools
+contents appearing one by one 
+effect --> appearing from the bottom to top   ------------done
+effect --> menu appearing from top to bottom and content appearing from bottom to top   ------done
+effect --> content appearing from left to right and right to left and appearing after some time
+effect --> when Scrolled then content appearing 
+Different Font weights for different Text
+effect --> content appearing from top right having the 0 size to 100% size  ---------cancel
+effect --> content appearing from inside zero to 100 %  -------------- cancel
+effect on images of project      cancel
+horizontal rule cancel
+adding Location  cancel
+adding birthday and cancel  
+bg like image screenshot , Bacground dar and then box and then  -------- done
+marqee tag content in technologies    ----------done
+
+
+multiple Colours
+
+
+
+
+headings 
+hii there, I m Abhay
+Projects
+technologies
+Education
+about me
+contact me 
+
+Small description with Heading 
+A Passionate Backend Developer writing the Future
+Projects I've Built:
+A Showcase of My Work.
+
+
+Hello There, I'm Abhay Sonwane and I'm a Backend Developer Currently Based in Pune,India .I Completed My Bachelors in Mechanical Engineering. I'm Passionate About learning new technologies, Consistency is Backbone of my Approach. In my Free time I watch Web Series and Listen to Songs
+
+Available for contact anytime via phone or email.Feel free to reach out anytime! Looking forward to connecting with you!

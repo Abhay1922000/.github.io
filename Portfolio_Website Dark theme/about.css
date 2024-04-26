@@ -1,0 +1,133 @@
+a{
+    /* color: white; */
+    text-decoration: none;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+h2{
+   
+    display: inline-block;
+    line-height: 140%;
+    /* border: 1px solid rgb(134, 74, 74); */
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.6vw;
+    width: 57%;
+    padding-left: 0px;
+    padding-right: 10px;
+    z-index: 2;
+    /* text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); */
+
+    /* text-shadow: 
+    1px 1px 1px rgba(255, 255, 255, 0.4),
+    3px 3px 1px rgba(255, 255, 255, 0.4); */
+
+}
+/* body{
+    background-color: beige;
+} */
+
+#desc{
+   width: 62%;
+   display: block;
+    font-size: 1.9vw;
+    /* color: gray; */
+    padding: 5px 3px 5px 2px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    /* border: 1px solid yellow */
+    /* text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); */
+   
+}
+@keyframes appearFromBottom{
+    0%{
+        transform: translateY(+20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.outerDiv{
+    display: flex;
+    flex-flow: column;
+    padding-left: 40px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid #666666;
+    background-color: #1b1b1b;
+    border-radius: 13px;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+
+    animation: appearFromBottom 1s;
+    box-shadow: 1px -3px 10px #9B30FF;
+    
+}
+
+@keyframes appearFromBottom{
+    0%{
+        transform: translateY(+20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    
+    #desc{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid red; */
+        font-size: 2.2vh;
+        font-weight: lighter;
+        /* text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); */
+        /* color: gray; */
+    }
+    .outerDiv{
+        border: 1px solid #666666;
+        background-color: #1b1b1b;
+        border-radius: 13px;
+        margin-top: 2%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding-left: 0px;
+        height: 38vh;
+
+        animation: appearFromBottom 1s;
+
+        box-shadow: 1px -3px 10px #9B30FF;
+    
+
+    }
+    h2{
+        display: inline-block;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: -10px;
+        font-size: 3.7vh;
+        /* text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); */
+
+        /* text-shadow: 
+    1px 1px 1px rgba(255, 255, 255, 0.4),
+    2px 2px 1px rgba(255, 255, 255, 0.4),
+    3px 3px 1px rgba(255, 255, 255, 0.4); */
+    }
+}
+

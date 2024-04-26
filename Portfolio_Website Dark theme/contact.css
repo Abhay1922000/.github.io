@@ -1,0 +1,215 @@
+/* 
+body{
+    background-color:  #000000;
+} */
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+.rows a{
+    color: white;
+    font-size: 2vw;
+    padding: 10px 20px 10px 10px;
+
+}
+/* from here all changes */
+.rows{
+    height: 30%;
+    width: 100%;
+    /* border: solid 1px red; */
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-family: 'Hedvig Letters Serif', serif;
+    padding: 3.5% 1% 3% 4%;
+    
+    font-weight: 500;
+    border-radius: 7px; 
+    background-color: #333333;
+    line-height: 1.2;
+
+    
+    
+}
+
+h2{
+    color: #333333;
+    /* display: inline-block; */
+    
+    line-height: 140%;
+    /* border: 1px solid rgb(201, 108, 108); */
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    /* width: 50%; */
+    /* padding-left: 0px; */
+    /* padding-right: 10px; */
+    z-index: 2;
+}
+
+#desc{
+    font-size: 25px;
+    font-family: 'Rethink Sans', sans-serif;
+    /* color: rgb(0, 0, 0); */
+    /* width: 450px; */
+    line-height: 30px;
+    
+     
+     
+    /* border: 1px solid rgb(4, 255, 4); */
+}
+.contactOuter{
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    /* border: 1px solid hotpink; */
+
+    border: 1px solid #666666;
+    background-color: #1b1b1b;
+    border-radius: 13px;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    animation: appearFromBottom 1s;
+    box-shadow: 1px -3px 10px #9B30FF;
+    
+    
+    
+}
+@keyframes appearFromBottom{
+    0%{
+        transform: translateY(+20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+#tabl{
+    /* border: solid 1px rgb(0, 110, 255); */
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 45vh;
+    padding: 10px;
+    
+}
+.div{
+    /* border: 1px solid rgb(236, 47, 47); */
+    width: 70%;
+    padding: 2%;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .div{
+        width: 100%;
+    }
+
+    .contactOuter{
+        display: flex;
+        flex-flow: column;
+        /* justify-items: center; */
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        vertical-align: middle;
+
+        border: 1px solid #666666;
+        background-color: #1b1b1b;
+        border-radius: 13px;
+        width: 94%;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+        animation: appearFromBottom 1s;
+        box-shadow: 1px -3px 10px #9B30FF;
+    
+    
+        
+    }
+    .rows{
+        /* height: 30%; 
+         width: 100%; */
+        border: none;
+        color: rgb(255, 255, 255);
+        font-size: 4vw;
+        font-family: 'Hedvig Letters Serif', serif;
+        
+        font-weight: 500;
+        border-radius: 7px; 
+        background-color: #333333;
+        /* background-color: aliceblue; */
+        line-height: 1.2;
+        /* border: 1px solid red; */
+
+        
+        
+    }
+   
+    #desc{
+        font-size: 15px;
+        font-family: 'Rethink Sans', sans-serif;
+        /* color: rgb(0, 0, 0); */
+        width: 100%;
+        line-height: normal;
+         padding-left: 8px;
+         text-align: center;
+        border: none;
+
+       
+    }
+    h2{
+        color: #333333;
+        text-align: center;
+        
+        line-height: 140%;
+        /* border: 1px solid rgb(201, 108, 108); */
+        border: none;
+        font-family: 'Rethink Sans', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        width: 60%;
+        margin: auto;
+       
+        z-index: 2;
+
+        
+    }
+    #tabl{
+        /* border: 1px solid rgb(190, 186, 186); */
+        border: none;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: stretch;
+        width: 90%;
+        padding: 10px;
+        height: 30vh;
+        
+    }
+    .rows a{
+        color: white;
+        font-size: 5vw;
+        padding: 10px 0px 0px 0px;
+        
+    }
+
+}
+
